@@ -1,0 +1,3 @@
+<technique vs="DistantFog" ps="DistantFog">
+    <pass name="postopaque" depthwrite="true" blend="alpha" />
+</technique>

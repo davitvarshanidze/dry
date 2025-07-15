@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<material>
+	<technique name="Techniques/NormalVCol.xml" quality="0" loddistance="0" />
+    <texture unit="normal" name="Textures/OzomNormal.dds" />
+	<parameter name="UOffset" value="1 0 0 0" />
+	<parameter name="VOffset" value="0 1 0 0" />
+	<parameter name="MatDiffColor" value="1 1 1 1" />
+	<parameter name="MatEmissiveColor" value="0 0 0" />
+	<parameter name="MatSpecColor" value="0.17 0.17 0.17 5" />
+    <parameter name="OutlineWidth" value="0.042" />
+    <parameter name="OutlineColor" value="0.23 0.34 0.13 0.1" />
+	<parameter name="Roughness" value="0.5" />
+	<parameter name="Metallic" value="0" />
+</material>

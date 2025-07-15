@@ -1,0 +1,169 @@
+
+
+# Contributing
+
+Before making pull requests, please read the [Contribution checklist](https://urho3d.github.io/documentation/HEAD/_contribution_checklist.html) and [Coding conventions](https://urho3d.github.io/documentation/HEAD/_coding_conventions.html) pages from the documentation.
+
+## Credits
+Dry development, contributions and bugfixes by:
+
+- Lasse Öörni
+- Wei Tjong Yao
+- Frode 魔大农 Lindeijer
+- Aster Jian
+- Ricardo Abreu
+- Eli Aloni
+- Vivienne Anthony
+- Christopher Augustus
+- Colin Barrett
+- Erik Beran
+- Gauthier Billot
+- Loic Blot
+- Danny Boisvert
+- Sergey Bosko
+- Lisandro Bruzzo
+- Steven Burns
+- Thomas Böhm
+- Carlo Carollo
+- Pete Chown
+- Christian Clavet
+- Sebastian Delatorre (primitivewaste)
+- Stanislav Demyanovich
+- Rainer Deyke
+- Josh Engebretson
+- Nicholas Farshidmehr
+- Simon Flores
+- Manuel Freiberger
+- Chris Friesen
+- Alex Fuller
+- Konstantin Guschin
+- Henrik Heino
+- Mika Heinonen
+- Victor Holt
+- Johnathan Jenkins
+- Jukka Jylänki
+- Graham King
+- Jason Kinzer
+- Cameron Kline
+- Jan Korous
+- Eugene Kozlov
+- Gunnar Kriik
+- Aliaksandr Kryvashein
+- Artem Kulyk
+- Rokas Kupstys
+- Ali Kämäräinen
+- Sergey Lapin
+- Pete Leigh
+- Pengfei Li
+- Arnis Lielturks
+- Thorbjørn Lindeijer
+- Nathanial Lydick
+- Pavel Matcula
+- Xavier Maupeu
+- Iain Merrick
+- Justin Miller
+- Jonne Nauha
+- Huy Nguyen
+- Neal Nicdao
+- Paul Noome
+- David Palacios
+- Alex Parlett
+- Jordan Patterson
+- Georgii Pelageikin
+- Anton Petrov
+- Vladimir Pobedinsky
+- Franck Poulain
+- Pranjal Raihan
+- Alexey Rassikhin
+- Svyatoslav Razmyslov
+- Mariusz Richtscheid
+- Nick Royer
+- Jonathan Sandusky
+- Miika Santala
+- Anatoly Sennov
+- Matan Shukry
+- Bengt Soderstrom
+- Hualin Song
+- James Thomas
+- Joshua Tippetts
+- Konstantin Tomashevich
+- Yusuf Umar
+- Mateus Vendramini
+- Daniel Wiberg
+- Kaikai Zhang
+- Steven Zhang
+- AGreatFish
+- BlueMagnificent
+- CG-SS
+- Enhex
+- Fastran
+- Firegorilla
+- Gordon-F
+- Igor Segalla
+- LordGolias
+- Lumak
+- Magic.Lixin
+- Mike3D
+- MonkeyFirst
+- Ner'zhul
+- Newb I the Newbd
+- OvermindDL1
+- Polynominal
+- PredatorMF
+- PsychoCircuitry
+- Rampoina
+- Scellow
+- Skrylar
+- SuperWangKai
+- TheComet93
+- Y-way
+- 1vanK
+- ab4daa
+- andmar1x
+- amadeus_osa
+- atship
+- att
+- att-kin9
+- celeron55
+- chenjie199234
+- codexhound
+- cosmy1
+- damu
+- dragonCASTjosh
+- error408
+- feltech
+- fredakilla
+- gleblebedev
+- hdunderscore
+- holyfight6
+- hsnabn
+- lhinuz
+- lvshiling
+- marynate
+- meshonline
+- mightyCelu
+- MystMagus
+- neat3d
+- nemerle
+- ninjastone
+- orefkov
+- pat2nav
+- pflat
+- proller
+- r-a-sattarov
+- raould
+- rasteron
+- reattiva
+- rifai
+- rikorin
+- skaiware
+- smortex
+- ssinai1
+- sssooonnnggg
+- svifylabs
+- szamq
+- thebluefish
+- tommy3
+- yushli
+- zlum
+

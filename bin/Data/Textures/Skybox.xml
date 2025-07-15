@@ -1,0 +1,9 @@
+<cubemap>
+    <face name="SunflowerSky_PosX.png" />
+    <face name="SunflowerSky_NegX.png" />
+    <face name="SunflowerSky_PosY.png" />
+    <face name="SunflowerSky_NegY.png" />
+    <face name="SunflowerSky_PosZ.png" />
+    <face name="SunflowerSky_NegZ.png" />
+    <quality low="0" />
+</cubemap>

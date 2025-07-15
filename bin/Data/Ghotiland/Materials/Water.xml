@@ -1,0 +1,13 @@
+<material>
+    <!-- The water example will assign the reflection texture to the diffuse unit -->
+    <!-- The engine will automatically assign the refraction (viewport) texture to the environment unit during refract pass -->
+    <technique name="Techniques/SoftWater.xml" />
+    <parameter name="MatDiffColor" value="0 0 0 1"/>
+    <parameter name="MatSpecColor" value="0.5 1 .9 235"/>  
+    <texture unit="normal" name="Textures/WaterNoise.dds" />
+    <parameter name="NoiseSpeed" value="0.002 0.007" />
+    <parameter name="NoiseTiling" value="4.20" />
+    <parameter name="NoiseStrength" value="0.023" />
+    <parameter name="FresnelPower" value="2.3" />
+    <parameter name="WaterTint" value="0.42 0.6 0.55" />
+</material>

@@ -1,0 +1,1000 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		4345BA251CE293914FAEE5BB /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C4ED0B2DFCBE4797AD642B9B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				E5705AF7FCD85B7689701479 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				80969097386C412F91009CB1 /* PBXTargetDependency */,
+				5DF5D5FD7E244C3B89374FB0 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		5B87D7829C1475DC74D5F1BE /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0E7E74D4B50442F989F00C30 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				7034CF0AF9B14103AAFCA8AA /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		ADEC617726CE43A383D71304 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3BA3649429084A64B80CF5F3 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				B6848FA1FF63B8FE382979E9 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		F4AC34287AEF3E4935234CE1 /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 20655ED94A8A44ACAD07369B /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				571234464C2A5D0D43F1AB42 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				49F3C97DB26A41FFBFA8D320 /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		3BA955C782D6496B865E6D8D /* /Users/davidvarshanidze/dry-master/Source/Tools/DryPlayer/DryPlayer.cpp */ = {isa = PBXBuildFile; fileRef = D17B5FDF5F074349871B1B3A /* /Users/davidvarshanidze/dry-master/Source/Tools/DryPlayer/DryPlayer.cpp */; };
+		531A6428EF764D0DAAB98826 /* /Users/davidvarshanidze/dry-master/Source/Tools/DryPlayer/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 42881261915B4EA29ED579AE /* /Users/davidvarshanidze/dry-master/Source/Tools/DryPlayer/CMakeLists.txt */; };
+		73DEFCCFF3DE4829AFC1A053 /* /Users/davidvarshanidze/dry-master/bin/Autoload */ = {isa = PBXBuildFile; fileRef = 623BC7D0B1E244AB9BA22DE7 /* /Users/davidvarshanidze/dry-master/bin/Autoload */; };
+		8CFCD51231094FA6880EDBC8 /* /Users/davidvarshanidze/dry-master/bin/Data/Textures/DryIcon.png */ = {isa = PBXBuildFile; fileRef = 488D36636D03447F9DD83286 /* /Users/davidvarshanidze/dry-master/bin/Data/Textures/DryIcon.png */; };
+		BC02816C8DB942AFB6EA5D1C /* /Users/davidvarshanidze/dry-master/bin/Data/Textures/DryIcon.icns */ = {isa = PBXBuildFile; fileRef = E5C533E6BABD4A2784BC9191 /* /Users/davidvarshanidze/dry-master/bin/Data/Textures/DryIcon.icns */; };
+		C4CA2A654A8140809E6FD89B /* /Users/davidvarshanidze/dry-master/bin/Data */ = {isa = PBXBuildFile; fileRef = 35F3DACE33E74A939C5927E4 /* /Users/davidvarshanidze/dry-master/bin/Data */; };
+		DFC6E86218134BE8B6AF952C /* /Users/davidvarshanidze/dry-master/Source/Tools/DryPlayer/DryPlayer.h */ = {isa = PBXBuildFile; fileRef = 940882B962AB4E2A8F30C8E2 /* /Users/davidvarshanidze/dry-master/Source/Tools/DryPlayer/DryPlayer.h */; };
+		F496CC27F6484A74BBFDB75A /* /Users/davidvarshanidze/dry-master/bin/CoreData */ = {isa = PBXBuildFile; fileRef = 62A541BD2847480F85B0D5F4 /* /Users/davidvarshanidze/dry-master/bin/CoreData */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		2975C7EA8CE442819FEBA62B /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		8D063E89B9A94E2792D364FD /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		FF452DF33C6C4D0BBEF70E1E /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		43A0954499B547E9832CB53A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 114EC7EE4BAE49B8BA4297CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F38B01CBA75FB1A4685CFF52;
+			remoteInfo = DryPlayer;
+		};
+		9335EFD9C3434683B344D88F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 114EC7EE4BAE49B8BA4297CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4345BA251CE293914FAEE5BB;
+			remoteInfo = ALL_BUILD;
+		};
+		93714486DDA648CFBF7486A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 114EC7EE4BAE49B8BA4297CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4345BA251CE293914FAEE5BB;
+			remoteInfo = ALL_BUILD;
+		};
+		A31153A07A5C4033AB12A331 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 114EC7EE4BAE49B8BA4297CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADEC617726CE43A383D71304;
+			remoteInfo = ZERO_CHECK;
+		};
+		BC5305FB1BCA4065B952655C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 114EC7EE4BAE49B8BA4297CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADEC617726CE43A383D71304;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		35F3DACE33E74A939C5927E4 /* /Users/davidvarshanidze/dry-master/bin/Data */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; name = Data; path = "/Users/davidvarshanidze/dry-master/bin/Data"; sourceTree = "<absolute>"; };
+		42881261915B4EA29ED579AE /* /Users/davidvarshanidze/dry-master/Source/Tools/DryPlayer/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = DryPlayer/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		488D36636D03447F9DD83286 /* /Users/davidvarshanidze/dry-master/bin/Data/Textures/DryIcon.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = DryIcon.png; path = "/Users/davidvarshanidze/dry-master/bin/Data/Textures/DryIcon.png"; sourceTree = "<absolute>"; };
+		623BC7D0B1E244AB9BA22DE7 /* /Users/davidvarshanidze/dry-master/bin/Autoload */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; name = Autoload; path = "/Users/davidvarshanidze/dry-master/bin/Autoload"; sourceTree = "<absolute>"; };
+		62A541BD2847480F85B0D5F4 /* /Users/davidvarshanidze/dry-master/bin/CoreData */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; name = CoreData; path = "/Users/davidvarshanidze/dry-master/bin/CoreData"; sourceTree = "<absolute>"; };
+		940882B962AB4E2A8F30C8E2 /* /Users/davidvarshanidze/dry-master/Source/Tools/DryPlayer/DryPlayer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = DryPlayer.h; path = DryPlayer/DryPlayer.h; sourceTree = SOURCE_ROOT; };
+		BD5D2317B7674F729AE5F391 /* DryPlayer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = DryPlayer; sourceTree = BUILT_PRODUCTS_DIR; };
+		D17B5FDF5F074349871B1B3A /* /Users/davidvarshanidze/dry-master/Source/Tools/DryPlayer/DryPlayer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DryPlayer.cpp; path = DryPlayer/DryPlayer.cpp; sourceTree = SOURCE_ROOT; };
+		E5C533E6BABD4A2784BC9191 /* /Users/davidvarshanidze/dry-master/bin/Data/Textures/DryIcon.icns */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = DryIcon.icns; path = "/Users/davidvarshanidze/dry-master/bin/Data/Textures/DryIcon.icns"; sourceTree = "<absolute>"; };
+		F20C51DBD7BC4F97873E2BF0 /* /Users/davidvarshanidze/dry-master/Source/Tools/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13EF1EC480C44A33921415BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2819ADC8332041B3A8F07E40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A69978053D946C8A853A920 /* DryPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				F45373BD864847EB85FB52A0 /* Source Files */,
+				55B18B1D568641E091FFEF72 /* Header Files */,
+				AFB2FA0336084C2497B929B7 /* Resource Dirs */,
+				ED8FE23EF0944ACE90D75758 /* Resources */,
+				42881261915B4EA29ED579AE /* /Users/davidvarshanidze/dry-master/Source/Tools/DryPlayer/CMakeLists.txt */,
+			);
+			name = DryPlayer;
+			sourceTree = "<group>";
+		};
+		4140DD18916445159C50BE03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD5D2317B7674F729AE5F391 /* DryPlayer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46C73FA49E664B71B9729076 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				AB40FFC6AB134F479242CB78 /* CMake Rules */,
+				F20C51DBD7BC4F97873E2BF0 /* /Users/davidvarshanidze/dry-master/Source/Tools/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		55B18B1D568641E091FFEF72 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				940882B962AB4E2A8F30C8E2 /* /Users/davidvarshanidze/dry-master/Source/Tools/DryPlayer/DryPlayer.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		AB40FFC6AB134F479242CB78 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		AFB2FA0336084C2497B929B7 /* Resource Dirs */ = {
+			isa = PBXGroup;
+			children = (
+				623BC7D0B1E244AB9BA22DE7 /* /Users/davidvarshanidze/dry-master/bin/Autoload */,
+				62A541BD2847480F85B0D5F4 /* /Users/davidvarshanidze/dry-master/bin/CoreData */,
+				35F3DACE33E74A939C5927E4 /* /Users/davidvarshanidze/dry-master/bin/Data */,
+			);
+			name = "Resource Dirs";
+			sourceTree = "<group>";
+		};
+		C38DEA681909445CA4354895 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D6DBD2E572CC415396961096 = {
+			isa = PBXGroup;
+			children = (
+				46C73FA49E664B71B9729076 /* ALL_BUILD */,
+				2A69978053D946C8A853A920 /* DryPlayer */,
+				4140DD18916445159C50BE03 /* Products */,
+				2819ADC8332041B3A8F07E40 /* Frameworks */,
+				C38DEA681909445CA4354895 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		ED8FE23EF0944ACE90D75758 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E5C533E6BABD4A2784BC9191 /* /Users/davidvarshanidze/dry-master/bin/Data/Textures/DryIcon.icns */,
+				488D36636D03447F9DD83286 /* /Users/davidvarshanidze/dry-master/bin/Data/Textures/DryIcon.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F45373BD864847EB85FB52A0 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				D17B5FDF5F074349871B1B3A /* /Users/davidvarshanidze/dry-master/Source/Tools/DryPlayer/DryPlayer.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F38B01CBA75FB1A4685CFF52 /* DryPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A586E9C30E3B4FD58CA102C7 /* Build configuration list for PBXNativeTarget "DryPlayer" */;
+			buildPhases = (
+				AAF739470147403B8EB60676 /* Sources */,
+				13EF1EC480C44A33921415BD /* Frameworks */,
+				A833D16BC0FF31A3E52166AF /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03398CCF926B4CE3933D71B3 /* PBXTargetDependency */,
+			);
+			name = DryPlayer;
+			productName = DryPlayer;
+			productReference = BD5D2317B7674F729AE5F391 /* DryPlayer */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		114EC7EE4BAE49B8BA4297CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1630;
+			};
+			buildConfigurationList = BBEFBCDC6B0A462BA96675EB /* Build configuration list for PBXProject "Dry-Tools" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				8D063E89B9A94E2792D364FD /* Release */,
+				FF452DF33C6C4D0BBEF70E1E /* RelWithDebInfo */,
+				2975C7EA8CE442819FEBA62B /* Debug */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = D6DBD2E572CC415396961096;
+			projectDirPath = "/Users/davidvarshanidze/dry-master/Source/Tools";
+			projectRoot = "";
+			targets = (
+				4345BA251CE293914FAEE5BB /* ALL_BUILD */,
+				F38B01CBA75FB1A4685CFF52 /* DryPlayer */,
+				5B87D7829C1475DC74D5F1BE /* install */,
+				F4AC34287AEF3E4935234CE1 /* package */,
+				ADEC617726CE43A383D71304 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		571234464C2A5D0D43F1AB42 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidvarshanidze/dry-master/build-mac
+  /opt/homebrew/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidvarshanidze/dry-master/build-mac
+  /opt/homebrew/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidvarshanidze/dry-master/build-mac
+  /opt/homebrew/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		661D9C604B3B91332E7543CC = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		87AF4882E018677E2624B544 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidvarshanidze/dry-master/build-mac/Source/Tools
+  /opt/homebrew/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidvarshanidze/dry-master/build-mac/Source/Tools
+  /opt/homebrew/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidvarshanidze/dry-master/build-mac/Source/Tools
+  /opt/homebrew/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A833D16BC0FF31A3E52166AF /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidvarshanidze/dry-master/build-mac/build
+  mkdir -p && ln -sf /Users/davidvarshanidze/dry-master/build-mac/bin/DryPlayer /DryPlayer
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidvarshanidze/dry-master/build-mac/build
+  mkdir -p && ln -sf /Users/davidvarshanidze/dry-master/build-mac/bin/DryPlayer /DryPlayer
+fi
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidvarshanidze/dry-master/build-mac/build
+  mkdir -p && ln -sf /Users/davidvarshanidze/dry-master/build-mac/bin/DryPlayer /DryPlayer
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		B6848FA1FF63B8FE382979E9 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/davidvarshanidze/dry-master/build-mac/Source/Tools/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidvarshanidze/dry-master/build-mac/Source/Tools
+  make -f /Users/davidvarshanidze/dry-master/build-mac/Source/Tools/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidvarshanidze/dry-master/build-mac/Source/Tools
+  make -f /Users/davidvarshanidze/dry-master/build-mac/Source/Tools/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidvarshanidze/dry-master/build-mac/Source/Tools
+  make -f /Users/davidvarshanidze/dry-master/build-mac/Source/Tools/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		E5705AF7FCD85B7689701479 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/davidvarshanidze/dry-master/build-mac/Source/Tools/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidvarshanidze/dry-master/build-mac/Source/Tools
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidvarshanidze/dry-master/build-mac/Source/Tools
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidvarshanidze/dry-master/build-mac/Source/Tools
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAF739470147403B8EB60676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA955C782D6496B865E6D8D /* /Users/davidvarshanidze/dry-master/Source/Tools/DryPlayer/DryPlayer.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03398CCF926B4CE3933D71B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADEC617726CE43A383D71304 /* ZERO_CHECK */;
+			targetProxy = A31153A07A5C4033AB12A331 /* PBXContainerItemProxy */;
+		};
+		49F3C97DB26A41FFBFA8D320 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4345BA251CE293914FAEE5BB /* ALL_BUILD */;
+			targetProxy = 93714486DDA648CFBF7486A7 /* PBXContainerItemProxy */;
+		};
+		5DF5D5FD7E244C3B89374FB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADEC617726CE43A383D71304 /* ZERO_CHECK */;
+			targetProxy = BC5305FB1BCA4065B952655C /* PBXContainerItemProxy */;
+		};
+		7034CF0AF9B14103AAFCA8AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4345BA251CE293914FAEE5BB /* ALL_BUILD */;
+			targetProxy = 9335EFD9C3434683B344D88F /* PBXContainerItemProxy */;
+		};
+		80969097386C412F91009CB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F38B01CBA75FB1A4685CFF52 /* DryPlayer */;
+			targetProxy = 43A0954499B547E9832CB53A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		147084F9C9A54D76AF7C630A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		3349CBDCFC514DD2A00EEC01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		3AC3B6B19F3D4F2C8E442884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		52A14E62912C4402B4EC2362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				SDKROOT = macosx;
+				SYMROOT = "/Users/davidvarshanidze/dry-master/build-mac/build";
+			};
+			name = Debug;
+		};
+		61CFE782516F487BA194B903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		72AC5C5458144931B505FB85 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		797EBBA1592B47BAB2FCB715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/davidvarshanidze/dry-master/build-mac/bin";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",DRY_STATIC_DEFINE,DRY_ANGELSCRIPT,DRY_FILEWATCHER,DRY_IK,DRY_LOGGING,DRY_NAVIGATION,DRY_NETWORK,DRY_PHYSICS,DRY_PROFILING,DRY_THREADING,DRY_2D,DRY_WEBP,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/davidvarshanidze/dry-master/build-mac/include","/Users/davidvarshanidze/dry-master/build-mac/include/Dry/ThirdParty","/Users/davidvarshanidze/dry-master/build-mac/include/Dry/ThirdParty/Bullet","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = YES;
+				"OTHER_CFLAGS[arch=i386]" = "-mno-sse $(OTHER_CFLAGS)";
+				OTHER_CPLUSPLUSFLAGS = "-std=c++11 -Wno-invalid-offsetof -pthread -Qunused-arguments -Wno-argument-outside-range    -DDEBUG -D_DEBUG -fvisibility=hidden -fvisibility-inlines-hidden ";
+				"OTHER_CPLUSPLUSFLAGS[arch=i386]" = "-mno-sse $(OTHER_CPLUSPLUSFLAGS)";
+				OTHER_LDFLAGS = ("-Wl,-no_weak_imports  -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/davidvarshanidze/dry-master/build-mac/lib/libDry.a","-liconv","-framework AudioToolbox","-framework AVFoundation","-framework CoreAudio","-framework CoreBluetooth","-framework CoreGraphics","-framework CoreMotion","-framework Foundation","-framework GameController","-framework OpenGLES","-framework QuartzCore","-framework UIKit","-liconv","-framework AudioToolbox","-framework AVFoundation","-framework CoreAudio","-framework CoreBluetooth","-framework CoreGraphics","-framework CoreMotion","-framework Foundation","-framework GameController","-framework OpenGLES","-framework QuartzCore","-framework UIKit","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = DryPlayer;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/davidvarshanidze/dry-master/build-mac/build/DryPlayer.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		7BC7B2D4914E4FBE8881398D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		7EFCDD42268D4532B8C7E0BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		8A141B81A7C244368D054858 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/davidvarshanidze/dry-master/build-mac/build";
+			};
+			name = RelWithDebInfo;
+		};
+		A2FDC55ADA0D48659FCF3004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		A7803DB588E44A758F854F80 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/davidvarshanidze/dry-master/build-mac/bin";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",DRY_STATIC_DEFINE,DRY_ANGELSCRIPT,DRY_FILEWATCHER,DRY_IK,DRY_LOGGING,DRY_NAVIGATION,DRY_NETWORK,DRY_PHYSICS,DRY_PROFILING,DRY_THREADING,DRY_2D,DRY_WEBP,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/davidvarshanidze/dry-master/build-mac/include","/Users/davidvarshanidze/dry-master/build-mac/include/Dry/ThirdParty","/Users/davidvarshanidze/dry-master/build-mac/include/Dry/ThirdParty/Bullet","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = "";
+				"OTHER_CFLAGS[arch=i386]" = "-mno-sse $(OTHER_CFLAGS)";
+				OTHER_CPLUSPLUSFLAGS = "-std=c++11 -Wno-invalid-offsetof -pthread -Qunused-arguments -Wno-argument-outside-range        -DNDEBUG -fvisibility=hidden -fvisibility-inlines-hidden ";
+				"OTHER_CPLUSPLUSFLAGS[arch=i386]" = "-mno-sse $(OTHER_CPLUSPLUSFLAGS)";
+				OTHER_LDFLAGS = ("-Wl,-no_weak_imports  -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/davidvarshanidze/dry-master/build-mac/lib/libDry.a","-liconv","-framework AudioToolbox","-framework AVFoundation","-framework CoreAudio","-framework CoreBluetooth","-framework CoreGraphics","-framework CoreMotion","-framework Foundation","-framework GameController","-framework OpenGLES","-framework QuartzCore","-framework UIKit","-liconv","-framework AudioToolbox","-framework AVFoundation","-framework CoreAudio","-framework CoreBluetooth","-framework CoreGraphics","-framework CoreMotion","-framework Foundation","-framework GameController","-framework OpenGLES","-framework QuartzCore","-framework UIKit","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = DryPlayer;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/davidvarshanidze/dry-master/build-mac/build/DryPlayer.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C24C4C28491F4DFF947F88A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/davidvarshanidze/dry-master/build-mac/build";
+			};
+			name = Release;
+		};
+		CC297862797B4288BDD90064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		D8C3BC48124C473E8A58430D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E4274893ABE342CCB9D817E9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E930846EA93E46CA85936004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		FB416646EB7A46DFA4FF7311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/davidvarshanidze/dry-master/build-mac/bin";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",DRY_STATIC_DEFINE,DRY_ANGELSCRIPT,DRY_FILEWATCHER,DRY_IK,DRY_LOGGING,DRY_NAVIGATION,DRY_NETWORK,DRY_PHYSICS,DRY_PROFILING,DRY_THREADING,DRY_2D,DRY_WEBP,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/davidvarshanidze/dry-master/build-mac/include","/Users/davidvarshanidze/dry-master/build-mac/include/Dry/ThirdParty","/Users/davidvarshanidze/dry-master/build-mac/include/Dry/ThirdParty/Bullet","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = "";
+				"OTHER_CFLAGS[arch=i386]" = "-mno-sse $(OTHER_CFLAGS)";
+				OTHER_CPLUSPLUSFLAGS = "-std=c++11 -Wno-invalid-offsetof -pthread -Qunused-arguments -Wno-argument-outside-range     -DNDEBUG -fvisibility=hidden -fvisibility-inlines-hidden ";
+				"OTHER_CPLUSPLUSFLAGS[arch=i386]" = "-mno-sse $(OTHER_CPLUSPLUSFLAGS)";
+				OTHER_LDFLAGS = ("-Wl,-no_weak_imports  -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/davidvarshanidze/dry-master/build-mac/lib/libDry.a","-liconv","-framework AudioToolbox","-framework AVFoundation","-framework CoreAudio","-framework CoreBluetooth","-framework CoreGraphics","-framework CoreMotion","-framework Foundation","-framework GameController","-framework OpenGLES","-framework QuartzCore","-framework UIKit","-liconv","-framework AudioToolbox","-framework AVFoundation","-framework CoreAudio","-framework CoreBluetooth","-framework CoreGraphics","-framework CoreMotion","-framework Foundation","-framework GameController","-framework OpenGLES","-framework QuartzCore","-framework UIKit","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = DryPlayer;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/davidvarshanidze/dry-master/build-mac/build/DryPlayer.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E7E74D4B50442F989F00C30 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E930846EA93E46CA85936004 /* Release */,
+				E4274893ABE342CCB9D817E9 /* RelWithDebInfo */,
+				7BC7B2D4914E4FBE8881398D /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20655ED94A8A44ACAD07369B /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2FDC55ADA0D48659FCF3004 /* Release */,
+				147084F9C9A54D76AF7C630A /* RelWithDebInfo */,
+				61CFE782516F487BA194B903 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BA3649429084A64B80CF5F3 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC297862797B4288BDD90064 /* Release */,
+				D8C3BC48124C473E8A58430D /* RelWithDebInfo */,
+				7EFCDD42268D4532B8C7E0BE /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A586E9C30E3B4FD58CA102C7 /* Build configuration list for PBXNativeTarget "DryPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB416646EB7A46DFA4FF7311 /* Release */,
+				A7803DB588E44A758F854F80 /* RelWithDebInfo */,
+				797EBBA1592B47BAB2FCB715 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBEFBCDC6B0A462BA96675EB /* Build configuration list for PBXProject "Dry-Tools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C24C4C28491F4DFF947F88A5 /* Release */,
+				8A141B81A7C244368D054858 /* RelWithDebInfo */,
+				52A14E62912C4402B4EC2362 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4ED0B2DFCBE4797AD642B9B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3349CBDCFC514DD2A00EEC01 /* Release */,
+				72AC5C5458144931B505FB85 /* RelWithDebInfo */,
+				3AC3B6B19F3D4F2C8E442884 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 114EC7EE4BAE49B8BA4297CA /* Project object */;
+}

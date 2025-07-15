@@ -1,0 +1,4 @@
+<technique vs="SoftWater" ps="SoftWater">
+    <pass name="refract" depthwrite="false" blend="alpha"/>
+    <pass name="litalpha" depthwrite="false" blend="addalpha" psdefines="SPECULAR" />
+</technique>

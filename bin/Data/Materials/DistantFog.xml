@@ -1,0 +1,5 @@
+<material>
+    <technique name="Techniques/DistantFog.xml" />
+    <parameter name="MatDiffColor" value="0 1 1 1" />
+    <cull value="none" />
+</material>

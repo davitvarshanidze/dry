@@ -1,0 +1,7 @@
+<material>
+    <technique name="Techniques/DiffNormal.xml" quality="1" />
+    <technique name="Techniques/Diff.xml" quality="0" />
+    <texture unit="diffuse" name="Textures/GrassRockDiffuse.dds" />
+    <texture unit="normal" name="Textures/GrassRockNormal.dds" />
+    <parameter name="MatSpecColor" value="0.2 0.2 0.2 13" />
+</material>
